@@ -5,7 +5,7 @@ Welcome to this regex tutorial! In this guide, we'll delve into the details of a
 
 ## Summary
 
-In this tutorial, we'll explore a regex pattern that matches email addresses. The following regex pattern provides an effective way to validate and extract email addresses from text.
+In this tutorial, we'll explore a regex pattern that matches email addresses. 
 
 ## Table of Contents
 
@@ -36,11 +36,17 @@ Bracket expressions allow us to define a set of characters that we want to match
 Character classes define a range of characters that can match a single character in the input text. In our pattern, `[A-Za-z0-9]+` specifies that we are looking for one or more alphanumeric characters. This is used to match both the username and the domain in the email address.
 
 ### The OR Operator
+The OR operator `|`, allows us to specify alternatives. In our pattern, there's no explicit OR operator, but the usage of `[A-Za-z0-9]` in multiple places implies that either an uppercase letter, lowercase letter, or digit can be matched.
 
 ### Flags
+Flags in regex are used to modify the behavior of the pattern matching. In our pattern, we're not using any flags like case-insensitivity or global matching. Flags are placed at the end of a regex, after the second slash, and they define additional functionality or limits for the regex.
 
 ### Character Escapes
+Character escapes allow us to match characters with special meanings in regex. In our pattern, we're not using any character escapes like `\` followed by a character with special meaning.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Marc is a Full Stack Web Developer student, if you have any questions a link to his github repo is below.
+
+
+https://github.com/Marc01710
